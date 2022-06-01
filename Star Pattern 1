@@ -1,0 +1,44 @@
+/*
+
+This pattern will appear in output.
+*
+**
+***
+****
+*****
+
+*/
+
+/* SOLUTION 1 */
+
+#include<stdio.h>
+#include<conio.h>
+void main(){
+ clrscr();
+ for(int i=0;i<5;i++){
+  for(int j=0;j<=i;j++){
+   printf("*");
+  }
+  printf("\n");
+ }
+getch();
+}
+
+
+/* SOLUTION 2 */
+
+#include<stdio.h>
+#include<conio.h>
+void main(){
+ clrscr();
+ for(int i=0;i<5;i++){
+  for(int j=0;j<5;j++){
+   if(j<=i)
+    printf("*");
+   else
+    printf(" ");
+  }
+  printf("\n");
+ }
+getch();
+}
