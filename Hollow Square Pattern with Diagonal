@@ -17,7 +17,7 @@ import java.util.*;
 public class Main
 {
 	public static void main(String[] args) {
-		System.out.println("Enter no. of rows to print a triangle with stars");
+		System.out.println("Enter no. of rows to print a hollow square with diagonal with stars");
 		Scanner sc=new Scanner(System.in);
 		int r=sc.nextInt();
 		for(int i=1;i<=r;i++){
